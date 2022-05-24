@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,700;1,300&family=Roboto:ital@1&display=swap');
+
+:root{
+    --primary:#c7c7c7;
+    --mainWhite:#fff;
+    --mainDark:#000;
+    --mainRed:rgba(176,16,16,0.623);
+    --gy: greenyellow;
+}
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* globals */
+
+body{
+    background: var(--primary);
+    font-family: 'Raleway';
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style:none ;
+}
+a{
+    text-decoration: none;
+}
+
+imag{
+width: 100%;
+}
+
+/* End global */
+/* nav */
+header{
+    background-color: var(--mainRed);
+    min-height: 459px;
+    background: url();
+    background-position: center center;
+    background-size: cover;
+    background-repeat: ;
+}   
+
+header > nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+
+}
+
+header > nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+header > nav > ul > li{
+    margin-right: 50px;
+
+}
+
+header > nav > ul > li{
+    color: var(--mainWhite);
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    transition: all is ease-in;
+/* end nav */
+
+}
+
+header > nav > ul > li > a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
